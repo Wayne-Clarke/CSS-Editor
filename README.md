@@ -68,6 +68,6 @@ The CSS Editor recognises up to 4 levels of nesting. You can also extend the par
 
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed as Freeware [LICENSE.md](LICENSE.md) file for details
 
 
