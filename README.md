@@ -60,14 +60,14 @@ The CSS Editor recognises up to 4 levels of nesting. You can also extend the par
 
 
 ##Built With
-*Visual Studio
+*Visual Studio 2015
 
 
 ## Authors
-
 * **Wayne Clarke** - [CSS Editor](https://github.com/Wayne-Clarke/CSS-Editor)
 
 
 ## License
-
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+
