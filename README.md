@@ -7,9 +7,9 @@ The purpose of this application is to offer a way to pre-process sass like CSS f
 instant feedback.
 
 
-
 So far the application understands the following CSS layout:
 
+```
 /* 
 Insert variables and functions here!
 $pop:46px; 
@@ -48,11 +48,26 @@ start */
 }
  
 /*end*/
+```
+
+Please note, the ```/*start*/``` and ```/*end*/``` tags are needed for the processing to work correctly.
+The CSS Editor recognises up to 4 levels of nesting. You can also extend the parent block inside a nested block.
 
 
-Please note, the /*start*/ and /*end*/ tags are needed for the processing to work correctly,
+##Requirements
+*Windows 7+
+*.NET 4.5
 
 
-Requirements
-Windows 7+
-.NET 4.5
+##Built With
+*Visual Studio
+
+
+## Authors
+
+* **Wayne Clarke** - [CSS Editor](https://github.com/Wayne-Clarke/CSS-Editor)
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
