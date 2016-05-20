@@ -10,34 +10,44 @@ instant feedback.
 So far the application understands the following CSS layout:
 
 ```
-/* 
-Insert variables and functions here!
-$pop:46px; 
+/*sass-start
 
+Variables and functions can be placed in this tag.
+
+this is how you set variables
+$pop:46px; 
+$background-color: red;
+
+this is how to create functions
 @pad($lop){
 	padding: $lop;
 	padding-bottom:$lop;
 }
+  
 
-@import "c:\Users\bobby\desktop\testCss.css"  
-start */ 
+allways close the sass-start tag
+sass-start*/ 
  
 
+//first
 #first {
 
 	border: $pop; 
 	padding: @pad(12px); 
 
+	//second
 	#second {
 	@extend;
 	color: purple; 
 	border: 5px;
 
+		//third
 		#third {
 			@extend; 
-			color: blue;
+			color: $background-color;
 			padding:9px;
  
+			//fourth
 			#fourth {
 				@extend; 
 				margin:5px; 
@@ -47,10 +57,12 @@ start */
 
 }
  
-/*end*/
+
+/* this is how to tell the editor the css markup is finished */
+/*sass-complete*/
 ```
 
-Please note, the ```/*start*/``` and ```/*end*/``` tags are needed for the processing to work correctly.
+Please note, the ```/*sass-start*/``` and ```/*sass-complete*/```, these tags are needed for the css processing to work correctly.
 The CSS Editor recognises up to 4 levels of nesting. You can also extend the parent block inside a nested block.
 
 
